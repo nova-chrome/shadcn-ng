@@ -1,14 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
   selector: 'shadcn-ng-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  imports: [RouterModule],
 })
-export class AppComponent {
-  title = 'shadcn-ng';
-}
+export class AppComponent {}
