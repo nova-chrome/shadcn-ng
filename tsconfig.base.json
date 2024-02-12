@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@shadcn-ng/ui-kit/ui": ["libs/ui-kit/ui/src/index.ts"]
+      "@shadcn-ng/ui-kit/ui": ["libs/ui-kit/ui/src/index.ts"],
+      "@shadcn-ng/ui-kit/util": ["libs/ui-kit/util/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
