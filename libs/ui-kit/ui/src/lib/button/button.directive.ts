@@ -2,6 +2,7 @@
 import { computed, Directive, input } from '@angular/core';
 import { cn } from '@shadcn-ng/ui-kit/util';
 import { cva, VariantProps } from 'class-variance-authority';
+import { ClassValue } from 'clsx';
 
 @Directive({
   standalone: true,
@@ -9,7 +10,7 @@ import { cva, VariantProps } from 'class-variance-authority';
   host: { '[class]': 'computedClass()' },
 })
 export class ButtonDirective {
-  class = input<string>();
+  class = input<ClassValue>();
   size = input<ButtonVariants['size']>('default');
   variant = input<ButtonVariants['variant']>('default');
 
