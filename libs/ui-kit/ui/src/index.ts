@@ -7,5 +7,3 @@ export { AvatarFallbackDirective } from './lib/avatar/avatar-fallback/avatar-fal
 export { AvatarImageDirective } from './lib/avatar/avatar-image/avatar-image.directive';
 export { BadgeComponent } from './lib/badge/badge.component';
 export { ButtonDirective } from './lib/button/button.directive';
-
-export * from './lib/badge/badge.component';
