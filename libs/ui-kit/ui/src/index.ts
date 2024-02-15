@@ -5,4 +5,7 @@ export { AspectRatioComponent } from './lib/aspect-ratio/aspect-ratio.component'
 export { AvatarComponent } from './lib/avatar/avatar.component';
 export { AvatarFallbackDirective } from './lib/avatar/avatar-fallback/avatar-fallback.directive';
 export { AvatarImageDirective } from './lib/avatar/avatar-image/avatar-image.directive';
+export { BadgeComponent } from './lib/badge/badge.component';
 export { ButtonDirective } from './lib/button/button.directive';
+
+export * from './lib/badge/badge.component';
