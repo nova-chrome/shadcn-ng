@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-ng/ui-kit/util",
+  "name": "@sng/ui-kit/util",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0"
