@@ -1,21 +1,20 @@
-/* eslint-disable @angular-eslint/no-host-metadata-property */
 import {
   ChangeDetectionStrategy,
   Component,
   computed,
   input,
 } from '@angular/core';
-import { cn } from '@shadcn-ng/ui-kit/util';
+import { cn } from '@sng/ui-kit/util';
 import { cva, VariantProps } from 'class-variance-authority';
 import { ClassValue } from 'clsx';
 
 @Component({
   standalone: true,
-  selector: 'shadcn-ng-alert',
+  selector: 'sng-alert',
   template: `
     <ng-content select="ng-icon" />
-    <ng-content select="shadcn-ng-alert-title" />
-    <ng-content select="shadcn-ng-alert-description" />
+    <ng-content select="sng-alert-title" />
+    <ng-content select="sng-alert-description" />
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: { '[class]': 'computedClass()' },

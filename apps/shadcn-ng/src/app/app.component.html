@@ -3,70 +3,64 @@
 <div class="container flex flex-col justify-center gap-3 my-5">
   <!-- AVATAR -->
   <div class="flex gap-3">
-    <shadcn-ng-avatar>
-      <img shadcnNgAvatarImage src="https://picsum.photos/500" alt="" />
-      <div shadcnNgAvatarFallback>CN</div>
-    </shadcn-ng-avatar>
+    <sng-avatar>
+      <img sngAvatarImage src="https://picsum.photos/500" alt="" />
+      <div sngAvatarFallback>CN</div>
+    </sng-avatar>
 
-    <shadcn-ng-avatar>
-      <img shadcnNgAvatarImage src="#" alt="" />
-      <div shadcnNgAvatarFallback>CN</div>
-    </shadcn-ng-avatar>
+    <sng-avatar>
+      <img sngAvatarImage src="#" alt="" />
+      <div sngAvatarFallback>CN</div>
+    </sng-avatar>
   </div>
 
   <!-- BADGE -->
   <div class="flex gap-3">
-    <shadcn-ng-badge>DEFAULT</shadcn-ng-badge>
-    <shadcn-ng-badge variant="outline">OUTLINE</shadcn-ng-badge>
-    <shadcn-ng-badge variant="secondary">SECONDARY</shadcn-ng-badge>
-    <shadcn-ng-badge variant="destructive">DESTRUCTIVE</shadcn-ng-badge>
+    <sng-badge>DEFAULT</sng-badge>
+    <sng-badge variant="outline">OUTLINE</sng-badge>
+    <sng-badge variant="secondary">SECONDARY</sng-badge>
+    <sng-badge variant="destructive">DESTRUCTIVE</sng-badge>
   </div>
 
   <!-- BUTTON -->
   <div class="flex gap-3">
-    <button shadcnNgBtn>DEFAULT</button>
-    <button shadcnNgBtn variant="outline">OUTLINE</button>
-    <button shadcnNgBtn variant="secondary">SECONDARY</button>
-    <button shadcnNgBtn variant="destructive">DESTRUCTIVE</button>
-    <button shadcnNgBtn variant="ghost">GHOST</button>
-    <button shadcnNgBtn variant="link">LINK</button>
-    <button shadcnNgBtn size="icon">ICON</button>
-    <button shadcnNgBtn size="lg">LG</button>
-    <button shadcnNgBtn size="sm">SM</button>
+    <button sngBtn>DEFAULT</button>
+    <button sngBtn variant="outline">OUTLINE</button>
+    <button sngBtn variant="secondary">SECONDARY</button>
+    <button sngBtn variant="destructive">DESTRUCTIVE</button>
+    <button sngBtn variant="ghost">GHOST</button>
+    <button sngBtn variant="link">LINK</button>
+    <button sngBtn size="icon">ICON</button>
+    <button sngBtn size="lg">LG</button>
+    <button sngBtn size="sm">SM</button>
   </div>
 
   <!-- ALERTS -->
   <div class="space-y-3">
-    <shadcn-ng-alert>
-      <shadcn-ng-alert-title>
-        Check Out All The New Work
-      </shadcn-ng-alert-title>
-      <shadcn-ng-alert-description>
-        Totally Rad Yo!
-      </shadcn-ng-alert-description>
-    </shadcn-ng-alert>
+    <sng-alert>
+      <sng-alert-title> Check Out All The New Work </sng-alert-title>
+      <sng-alert-description> Totally Rad Yo! </sng-alert-description>
+    </sng-alert>
 
-    <shadcn-ng-alert variant="destructive">
-      <shadcn-ng-alert-title>Uh-Oh!</shadcn-ng-alert-title>
-      <shadcn-ng-alert-description>
-        Something went wrong yo!
-      </shadcn-ng-alert-description>
-    </shadcn-ng-alert>
+    <sng-alert variant="destructive">
+      <sng-alert-title>Uh-Oh!</sng-alert-title>
+      <sng-alert-description> Something went wrong yo! </sng-alert-description>
+    </sng-alert>
   </div>
 
   <!-- ASPECT RATIO -->
   <div class="w-1/2 m-auto">
-    <shadcn-ng-aspect-ratio [ratio]="16 / 9">
+    <sng-aspect-ratio [ratio]="16 / 9">
       <div class="flex items-center justify-center rounded bg-slate-400">
         <span class="text-gray-100">16/9 Ratio</span>
       </div>
-    </shadcn-ng-aspect-ratio>
+    </sng-aspect-ratio>
   </div>
   <div class="w-1/2 m-auto">
-    <shadcn-ng-aspect-ratio [ratio]="4 / 3">
+    <sng-aspect-ratio [ratio]="4 / 3">
       <div class="flex items-center justify-center rounded bg-slate-400">
         <span class="text-gray-100">4/3 Ratio</span>
       </div>
-    </shadcn-ng-aspect-ratio>
+    </sng-aspect-ratio>
   </div>
 </div>

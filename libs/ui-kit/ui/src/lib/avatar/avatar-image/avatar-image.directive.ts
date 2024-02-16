@@ -1,4 +1,3 @@
-/* eslint-disable @angular-eslint/no-host-metadata-property */
 import {
   computed,
   Directive,
@@ -6,12 +5,12 @@ import {
   input,
   signal,
 } from '@angular/core';
-import { cn } from '@shadcn-ng/ui-kit/util';
+import { cn } from '@sng/ui-kit/util';
 import { ClassValue } from 'clsx';
 
 @Directive({
   standalone: true,
-  selector: 'img[shadcnNgAvatarImage]',
+  selector: 'img[sngAvatarImage]',
   host: { '[class]': 'computedClass()' },
 })
 export class AvatarImageDirective {

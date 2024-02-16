@@ -1,4 +1,3 @@
-/* eslint-disable @angular-eslint/no-host-metadata-property */
 import {
   AfterViewInit,
   ChangeDetectionStrategy,
@@ -8,12 +7,12 @@ import {
   inject,
   input,
 } from '@angular/core';
-import { cn } from '@shadcn-ng/ui-kit/util';
+import { cn } from '@sng/ui-kit/util';
 import { ClassValue } from 'clsx';
 
 @Component({
   standalone: true,
-  selector: 'shadcn-ng-aspect-ratio',
+  selector: 'sng-aspect-ratio',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="absolute w-full inset-0">
