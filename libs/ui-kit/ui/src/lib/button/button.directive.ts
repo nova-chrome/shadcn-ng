@@ -1,12 +1,11 @@
-/* eslint-disable @angular-eslint/no-host-metadata-property */
 import { computed, Directive, input } from '@angular/core';
-import { cn } from '@shadcn-ng/ui-kit/util';
+import { cn } from '@sng/ui-kit/util';
 import { cva, VariantProps } from 'class-variance-authority';
 import { ClassValue } from 'clsx';
 
 @Directive({
   standalone: true,
-  selector: 'button[shadcnNgBtn],a[shadcnNgBtn]',
+  selector: 'button[sngBtn],a[sngBtn]',
   host: { '[class]': 'computedClass()' },
 })
 export class ButtonDirective {

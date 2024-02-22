@@ -1,5 +1,5 @@
 {
-  "name": "@shadcn-ng/ui-kit/ui",
+  "name": "@sng/ui-kit/ui",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^17.1.0",

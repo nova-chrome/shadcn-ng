@@ -1,4 +1,3 @@
-/* eslint-disable @angular-eslint/no-host-metadata-property */
 import {
   ChangeDetectionStrategy,
   Component,
@@ -6,20 +5,20 @@ import {
   ContentChild,
   input,
 } from '@angular/core';
-import { cn } from '@shadcn-ng/ui-kit/util';
+import { cn } from '@sng/ui-kit/util';
 import { ClassValue } from 'clsx';
 
 import { AvatarImageDirective } from './avatar-image/avatar-image.directive';
 
 @Component({
   standalone: true,
-  selector: 'shadcn-ng-avatar',
+  selector: 'sng-avatar',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     @if (image?.hasLoaded()) {
-    <ng-content select="img[shadcnNgAvatarImage]" />
+    <ng-content select="img[sngAvatarImage]" />
     } @else {
-    <ng-content select="[shadcnNgAvatarFallback]" />
+    <ng-content select="[sngAvatarFallback]" />
     }
   `,
   host: { '[class]': 'computedClass()' },

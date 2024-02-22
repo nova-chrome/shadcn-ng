@@ -2,7 +2,7 @@
   "name": "ui-kit-ui",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/ui-kit/ui/src",
-  "prefix": "shadcn-ng",
+  "prefix": "sng",
   "tags": [],
   "projectType": "library",
   "targets": {

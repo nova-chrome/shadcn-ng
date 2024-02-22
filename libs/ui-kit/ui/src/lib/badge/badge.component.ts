@@ -1,17 +1,16 @@
-/* eslint-disable @angular-eslint/no-host-metadata-property */
 import {
   ChangeDetectionStrategy,
   Component,
   computed,
   input,
 } from '@angular/core';
-import { cn } from '@shadcn-ng/ui-kit/util';
+import { cn } from '@sng/ui-kit/util';
 import { cva, VariantProps } from 'class-variance-authority';
 import { ClassValue } from 'clsx';
 
 @Component({
   standalone: true,
-  selector: 'shadcn-ng-badge',
+  selector: 'sng-badge',
   template: `<ng-content />`,
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: { '[class]': 'computedClass()' },

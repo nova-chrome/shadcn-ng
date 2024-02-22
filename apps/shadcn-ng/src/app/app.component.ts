@@ -6,11 +6,11 @@ import {
   AvatarModule,
   BadgeModule,
   ButtonModule,
-} from '@shadcn-ng/ui-kit/ui';
+} from '@sng/ui-kit/ui';
 
 @Component({
   standalone: true,
-  selector: 'shadcn-ng-root',
+  selector: 'sng-root',
   templateUrl: './app.component.html',
   imports: [
     AlertModule,
